@@ -1,0 +1,6 @@
+{
+  "name": "Benin BizDocs - Enterprise Invoicing, Receipts & Verification",
+  "description": "Authentic, traceable invoice and receipt management system for digital services businesses in Benin with public verification and compliance records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

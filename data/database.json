@@ -1,0 +1,575 @@
+{
+  "version": 1,
+  "businessProfile": {
+    "officialBusinessName": "AFRIQ DIGITAL SOLUTIONS SARL",
+    "commercialName": "AFRIQ DIGITAL TECHNOLOGIES",
+    "legalStructure": "Société à Responsabilité Limitée (SARL)",
+    "rccmNumber": "RB/COT/23 B 38942",
+    "isRccmVerified": true,
+    "ifuNumber": "3202314569801",
+    "isIfuVerified": true,
+    "registeredAddress": "Lot 1425, Immeuble Le Phare, Quartier Haie Vive, Cotonou",
+    "operatingAddress": "Bureau 302, 3ème Étage, Zone Commerciale Ganhi, Cotonou",
+    "ownerResidentialAddress": "",
+    "country": "Bénin",
+    "city": "Cotonou",
+    "postalCode": "BP 1204",
+    "email": "contact@afriqdigital.bj",
+    "phone": "+229 21 30 45 88",
+    "website": "https://afriqdigital.bj",
+    "activityDescription": "Services Numériques, Ingénierie Logicielle, Hébergement Cloud, Conseil en Systèmes d'Information",
+    "primaryCurrency": "XOF",
+    "supportedCurrencies": [
+      "XOF",
+      "EUR",
+      "USD"
+    ],
+    "authorizedSignatoryName": "Sabi K. Issa",
+    "authorizedSignatoryTitle": "Directeur Général & Gérant",
+    "defaultTaxRate": 18,
+    "bankDetails": {
+      "bankName": "Ecobank Bénin S.A.",
+      "accountName": "AFRIQ DIGITAL SOLUTIONS SARL",
+      "accountNumber": "001012345678901",
+      "ibanRib": "BJ061 01001 001012345678 90",
+      "swiftBic": "ECOCBJBJ",
+      "momoNumber": "+229 97 00 11 22 (MTN MoMo Marchand: 554210)",
+      "moovNumber": "+229 95 33 44 55 (Moov Money Pro: 887211)"
+    },
+    "taxRegime": "Régime du Réel Normal (TVA 18%)",
+    "ownerFullName": "Sabi K. Issa",
+    "ownerTitle": "Directeur Général & Gérant Associé"
+  },
+  "customers": [
+    {
+      "id": "cust-1",
+      "fullName": "Amina Adebayo",
+      "companyName": "Adebayo Consulting Services",
+      "email": "amina.adebayo@adebayoconsulting.com",
+      "phone": "+229 97 45 67 89",
+      "address": "Carrefour Club des Rois, Cadjèhoun, Cotonou",
+      "city": "Cotonou",
+      "country": "Bénin",
+      "ifuNumber": "1202209876543",
+      "customerType": "BUSINESS",
+      "createdAt": "2026-01-15T09:00:00Z",
+      "notes": "Long-term corporate client for enterprise portal maintenance."
+    },
+    {
+      "id": "cust-2",
+      "fullName": "Marcelle Hounhouenou",
+      "companyName": "Novéa Logistics & Freight",
+      "email": "m.hounhouenou@novealog.bj",
+      "phone": "+229 96 12 34 56",
+      "address": "Avenue Jean-Paul II, Zone Portuaire, Cotonou",
+      "city": "Cotonou",
+      "country": "Bénin",
+      "ifuNumber": "2202105432198",
+      "customerType": "BUSINESS",
+      "createdAt": "2026-02-01T10:30:00Z",
+      "notes": "Fleet GPS tracking and backend API client."
+    },
+    {
+      "id": "cust-3",
+      "fullName": "Jean-Luc Dossou",
+      "email": "jl.dossou@gmail.com",
+      "phone": "+229 95 88 77 66",
+      "address": "Quartier Fidjrossè Calvaire, Cotonou",
+      "city": "Cotonou",
+      "country": "Bénin",
+      "customerType": "INDIVIDUAL",
+      "createdAt": "2026-02-20T14:15:00Z",
+      "notes": "Individual professional web development client."
+    },
+    {
+      "fullName": "Mamadou Kone",
+      "email": "",
+      "phone": "+229 97 11 22 33",
+      "address": "Zone Résidentielle, Cotonou",
+      "city": "Cotonou",
+      "country": "Bénin",
+      "customerType": "BUSINESS",
+      "id": "cust-1794338690589",
+      "createdAt": "2026-11-10T19:24:50.589Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1",
+      "invoiceNumber": "INV-2026-0001",
+      "issueDate": "2026-02-10",
+      "deliveryDate": "2026-02-11",
+      "dueDate": "2026-02-25",
+      "customerId": "cust-1",
+      "customerSnapshot": {
+        "fullName": "Amina Adebayo",
+        "companyName": "Adebayo Consulting Services",
+        "email": "amina.adebayo@adebayoconsulting.com",
+        "phone": "+229 97 45 67 89",
+        "address": "Carrefour Club des Rois, Cadjèhoun, Cotonou",
+        "city": "Cotonou",
+        "country": "Bénin",
+        "ifuNumber": "1202209876543"
+      },
+      "items": [
+        {
+          "id": "item-1",
+          "description": "Audit et Sécurisation de l'Architecture Cloud Hybride",
+          "quantity": 1,
+          "unitPrice": 850000,
+          "total": 850000
+        },
+        {
+          "id": "item-2",
+          "description": "Déploiement API Passerelle de Paiement MoMo & Carte",
+          "quantity": 1,
+          "unitPrice": 400000,
+          "total": 400000
+        }
+      ],
+      "subtotal": 1250000,
+      "taxRate": 18,
+      "taxAmount": 225000,
+      "totalAmount": 1475000,
+      "amountPaid": 1475000,
+      "remainingBalance": 0,
+      "currency": "XOF",
+      "status": "PAID",
+      "notes": "Prestation livrée conformément au cahier des charges et validée.",
+      "terms": "Paiement à 15 jours. Pénalités de retard applicables selon la réglementation OHADA.",
+      "payments": [
+        {
+          "paymentMethod": "BANK_TRANSFER",
+          "transactionReference": "VIR-ECOB-BJ-20260212-99824",
+          "paymentDate": "2026-02-12T11:42:00Z",
+          "amountPaid": 1475000,
+          "currency": "XOF",
+          "notes": "Virement bancaire Ecobank reçu et rapproché sur le compte commercial.",
+          "recordedBy": "comptable"
+        }
+      ],
+      "receiptIds": [
+        "rec-1"
+      ],
+      "verificationToken": "INV-MWB29I8N-3A89A03A681F",
+      "documentHash": "6e43b4dfa56c2f0567daae3eb9dfb929eb2d82550ddd1eef1ce0f3d65f540c0b",
+      "createdAt": "2026-02-10T08:30:00Z",
+      "updatedAt": "2026-02-12T11:45:00Z"
+    },
+    {
+      "id": "inv-1794338681971",
+      "invoiceNumber": "INV-2026-0002",
+      "issueDate": "2026-02-15",
+      "deliveryDate": "2026-02-15",
+      "dueDate": "2026-03-01",
+      "customerId": "cust-1",
+      "customerSnapshot": {
+        "fullName": "Amina Adebayo",
+        "companyName": "Adebayo Consulting Services",
+        "email": "amina.adebayo@adebayoconsulting.com",
+        "phone": "+229 97 45 67 89",
+        "address": "Carrefour Club des Rois, Cadjèhoun, Cotonou",
+        "city": "Cotonou",
+        "country": "Bénin",
+        "ifuNumber": "1202209876543"
+      },
+      "items": [
+        {
+          "id": "item-1794338681970-0",
+          "description": "Test Service",
+          "quantity": 1,
+          "unitPrice": 100000,
+          "total": 100000
+        }
+      ],
+      "subtotal": 100000,
+      "taxRate": 18,
+      "taxAmount": 18000,
+      "totalAmount": 118000,
+      "amountPaid": 0,
+      "remainingBalance": 118000,
+      "currency": "XOF",
+      "status": "UNPAID",
+      "notes": "",
+      "terms": "Paiement à 30 jours net. Pénalités de retard au taux légal en vigueur en République du Bénin.",
+      "payments": [],
+      "receiptIds": [],
+      "verificationToken": "INV-MWB2X7XV-910BF06B67B7",
+      "documentHash": "77b9c49c5083cdeb5b24ab28e70599d43a9eac198591d68714997c973a84af4e",
+      "createdAt": "2026-11-10T19:24:41.971Z",
+      "updatedAt": "2026-11-10T19:24:41.971Z"
+    },
+    {
+      "id": "inv-1794341791744",
+      "invoiceNumber": "INV-2026-0003",
+      "issueDate": "2026-02-21",
+      "deliveryDate": "2026-02-21",
+      "dueDate": "2026-03-05",
+      "customerId": "cust-2",
+      "customerSnapshot": {
+        "fullName": "Marcelle Hounhouenou",
+        "companyName": "Novéa Logistics & Freight",
+        "email": "m.hounhouenou@novealog.bj",
+        "phone": "+229 96 12 34 56",
+        "address": "Avenue Jean-Paul II, Zone Portuaire, Cotonou",
+        "city": "Cotonou",
+        "country": "Bénin",
+        "ifuNumber": "2202105432198"
+      },
+      "items": [
+        {
+          "id": "item-1794341791744-0",
+          "description": "Intégration Passerelle de Paiement MoMo & Carte Bancaire",
+          "quantity": 1,
+          "unitPrice": 450000,
+          "total": 450000
+        },
+        {
+          "id": "item-1794341791744-1",
+          "description": "Déploiement Cloud & DevOps (Docker, CI/CD, SSL)",
+          "quantity": 1,
+          "unitPrice": 600000,
+          "total": 600000
+        }
+      ],
+      "subtotal": 1050000,
+      "taxRate": 18,
+      "taxAmount": 189000,
+      "totalAmount": 1239000,
+      "amountPaid": 400000,
+      "remainingBalance": 839000,
+      "currency": "XOF",
+      "status": "PARTIALLY_PAID",
+      "notes": "Déploiement passerelle de paiement et sécurisation cloud",
+      "terms": "Paiement sous 14 jours par virement ou MoMo",
+      "payments": [
+        {
+          "paymentMethod": "MTN_MOMO",
+          "transactionReference": "MOMO-BJ-2026-881230",
+          "paymentDate": "2026-02-22T09:30:00Z",
+          "amountPaid": 500000,
+          "currency": "XOF",
+          "notes": "Acompte reçu par MTN MoMo Marchand 554210",
+          "recordedBy": "admin"
+        }
+      ],
+      "receiptIds": [
+        "rec-1794341797251"
+      ],
+      "refunds": [
+        {
+          "id": "ref-1794341801687",
+          "refundNumber": "AVOIR-2026-0001",
+          "invoiceId": "inv-1794341791744",
+          "invoiceNumber": "INV-2026-0003",
+          "amountRefunded": 100000,
+          "currency": "XOF",
+          "refundDate": "2026-11-10T20:16:41.687Z",
+          "reason": "Ajustement contractuel du périmètre d intégration passerelle",
+          "transactionReference": "VIR-ECOB-REMB-001",
+          "paymentMethod": "BANK_TRANSFER",
+          "recordedBy": "admin"
+        }
+      ],
+      "verificationToken": "INV-MWB4RVGG-D4DAF1C20B38",
+      "documentHash": "3c7435a9aae2b555f024b486502dc5b7479ef661f0c0727422d67e25126a2511",
+      "createdAt": "2026-11-10T20:16:31.744Z",
+      "updatedAt": "2026-11-10T20:16:41.687Z"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "rec-1",
+      "receiptNumber": "REC-2026-0001",
+      "invoiceId": "inv-1",
+      "invoiceNumber": "INV-2026-0001",
+      "customerId": "cust-1",
+      "customerSnapshot": {
+        "fullName": "Amina Adebayo",
+        "companyName": "Adebayo Consulting Services",
+        "email": "amina.adebayo@adebayoconsulting.com",
+        "phone": "+229 97 45 67 89",
+        "address": "Carrefour Club des Rois, Cadjèhoun, Cotonou",
+        "city": "Cotonou",
+        "country": "Bénin"
+      },
+      "serviceDescriptionSummary": "Audit et Sécurisation Cloud & Déploiement API Passerelle",
+      "amountReceived": 1475000,
+      "currency": "XOF",
+      "paymentMethod": "BANK_TRANSFER",
+      "paymentDateTime": "2026-02-12T11:42:00Z",
+      "transactionReference": "VIR-ECOB-BJ-20260212-99824",
+      "remainingInvoiceBalance": 0,
+      "authorizedSignatory": "Sabi K. Issa",
+      "authorizedTitle": "Directeur Général & Gérant",
+      "verificationToken": "REC-MWB29I8N-8EFE90A3702D",
+      "documentHash": "55d6f9b7b8e4b86f477b790eb9bcc4e604e6175f758389cb034f0eb168a5ef84",
+      "createdAt": "2026-02-12T11:45:00Z",
+      "notes": "Paiement complet vérifié et quittance officielle délivrée."
+    },
+    {
+      "id": "rec-1794341797251",
+      "receiptNumber": "REC-2026-0002",
+      "invoiceId": "inv-1794341791744",
+      "invoiceNumber": "INV-2026-0003",
+      "customerId": "cust-2",
+      "customerSnapshot": {
+        "fullName": "Marcelle Hounhouenou",
+        "companyName": "Novéa Logistics & Freight",
+        "email": "m.hounhouenou@novealog.bj",
+        "phone": "+229 96 12 34 56",
+        "address": "Avenue Jean-Paul II, Zone Portuaire, Cotonou",
+        "city": "Cotonou",
+        "country": "Bénin",
+        "ifuNumber": "2202105432198"
+      },
+      "serviceDescriptionSummary": "Intégration Passerelle de Paiement MoMo & Carte Bancaire; Déploiement Cloud & DevOps (Docker, CI/CD, SSL)",
+      "amountReceived": 500000,
+      "currency": "XOF",
+      "paymentMethod": "MTN_MOMO",
+      "paymentDateTime": "2026-02-22T09:30:00Z",
+      "transactionReference": "MOMO-BJ-2026-881230",
+      "remainingInvoiceBalance": 739000,
+      "authorizedSignatory": "Sabi K. Issa",
+      "authorizedTitle": "Directeur Général & Gérant",
+      "verificationToken": "REC-MWB4RZPF-F2789B7C985F",
+      "documentHash": "8d4e890c771b6133fb352b5efe067a4fe57773362064c8bf12f51702dc7229fc",
+      "createdAt": "2026-11-10T20:16:37.251Z",
+      "notes": "Acompte reçu par MTN MoMo Marchand 554210"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-02-10T08:30:00Z",
+      "actor": "SYSTEM_GENESIS",
+      "action": "SYSTEM_INITIALIZED",
+      "entityType": "SECURITY",
+      "entityId": "SYS",
+      "details": "Initialisation sécurisée du registre comptable et fiscal pour AFRIQ DIGITAL SOLUTIONS SARL (Bénin).",
+      "previousStateHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "currentStateHash": "d192a3269e7453eb04f9c13847ed8f159033fc2d73cdba62cc6ddb45c1fee53c"
+    },
+    {
+      "id": "log-1794338677330-144",
+      "timestamp": "2026-11-10T19:24:37.330Z",
+      "actor": "admin",
+      "action": "UPDATE_BUSINESS_PROFILE",
+      "entityType": "PROFILE",
+      "entityId": "PROFILE",
+      "details": "Updated commercial and legal business profile settings.",
+      "previousStateHash": "d192a3269e7453eb04f9c13847ed8f159033fc2d73cdba62cc6ddb45c1fee53c",
+      "currentStateHash": "f92664af7ebd81195177ab0dbbf5f0a3b5f6798f8af9bc34eba620a7499c395f"
+    },
+    {
+      "id": "log-1794338681971-522",
+      "timestamp": "2026-11-10T19:24:41.971Z",
+      "actor": "admin",
+      "action": "CREATE_INVOICE",
+      "entityType": "INVOICE",
+      "entityId": "inv-1794338681971",
+      "details": "Issued sequential invoice INV-2026-0002 to Amina Adebayo for 118000 XOF.",
+      "previousStateHash": "f92664af7ebd81195177ab0dbbf5f0a3b5f6798f8af9bc34eba620a7499c395f",
+      "currentStateHash": "9c21f5e4b7a27087173d431e41154dd39090f0a64335e6b42cab13cc0aef022d"
+    },
+    {
+      "id": "log-1794338686023-581",
+      "timestamp": "2026-11-10T19:24:46.023Z",
+      "actor": "SYSTEM",
+      "action": "DATABASE_BACKUP_CREATED",
+      "entityType": "BACKUP",
+      "entityId": "2026-11-10T19-24-46-023Z",
+      "details": "Automated system backup created: backup-2026-11-10T19-24-46-023Z.json",
+      "previousStateHash": "9c21f5e4b7a27087173d431e41154dd39090f0a64335e6b42cab13cc0aef022d",
+      "currentStateHash": "5a424e48fc5b5fb11d67fcafa3b3cd6a654f3d5e522b0be80266ce40603eefc7"
+    },
+    {
+      "id": "log-1794338690589-862",
+      "timestamp": "2026-11-10T19:24:50.589Z",
+      "actor": "admin",
+      "action": "CREATE_CUSTOMER",
+      "entityType": "CUSTOMER",
+      "entityId": "cust-1794338690589",
+      "details": "Created customer record for \"Mamadou Kone\".",
+      "previousStateHash": "5a424e48fc5b5fb11d67fcafa3b3cd6a654f3d5e522b0be80266ce40603eefc7",
+      "currentStateHash": "9ad3c18300a388abe75e6df5d7c04b56d7eba57787e106c746d2339443886942"
+    },
+    {
+      "id": "log-1794341782789-516",
+      "timestamp": "2026-11-10T20:16:22.789Z",
+      "actor": "admin",
+      "action": "CREATE_EXPENSE",
+      "entityType": "EXPENSE",
+      "entityId": "exp-1794341782789",
+      "details": "Recorded operating expense DEP-2026-0003: Routeur VPN d entreprise et switch Gigabit (120000 XOF) to TechnoPlus Bénin.",
+      "previousStateHash": "9ad3c18300a388abe75e6df5d7c04b56d7eba57787e106c746d2339443886942",
+      "currentStateHash": "9ba9c0235c4e3deb1a8456d77f0de20613a465a86ff46080db118275f9ed75dd"
+    },
+    {
+      "id": "log-1794341791745-497",
+      "timestamp": "2026-11-10T20:16:31.744Z",
+      "actor": "admin",
+      "action": "CREATE_INVOICE",
+      "entityType": "INVOICE",
+      "entityId": "inv-1794341791744",
+      "details": "Issued sequential invoice INV-2026-0003 to Marcelle Hounhouenou for 1239000 XOF.",
+      "previousStateHash": "9ba9c0235c4e3deb1a8456d77f0de20613a465a86ff46080db118275f9ed75dd",
+      "currentStateHash": "654cf81aa22fc82b322c8daed3169c41a3974b4ac9fac2af596f23420ab60888"
+    },
+    {
+      "id": "log-1794341797251-122",
+      "timestamp": "2026-11-10T20:16:37.251Z",
+      "actor": "admin",
+      "action": "PAYMENT_RECORDED_AND_RECEIPT_ISSUED",
+      "entityType": "PAYMENT",
+      "entityId": "rec-1794341797251",
+      "details": "Verified payment of 500000 XOF for invoice INV-2026-0003. Ref: MOMO-BJ-2026-881230. Official receipt REC-2026-0002 generated.",
+      "previousStateHash": "654cf81aa22fc82b322c8daed3169c41a3974b4ac9fac2af596f23420ab60888",
+      "currentStateHash": "a202e52b3e85deeba5e2d89cb9a8696fe68cf58ee0aef43c8cd8a9d7c1239c07"
+    },
+    {
+      "id": "log-1794341801687-567",
+      "timestamp": "2026-11-10T20:16:41.687Z",
+      "actor": "admin",
+      "action": "INVOICE_REFUND_ISSUED",
+      "entityType": "REFUND",
+      "entityId": "ref-1794341801687",
+      "details": "Credit note AVOIR-2026-0001 issued for invoice INV-2026-0003. Amount: 100000 XOF. Reason: Ajustement contractuel du périmètre d intégration passerelle",
+      "previousStateHash": "a202e52b3e85deeba5e2d89cb9a8696fe68cf58ee0aef43c8cd8a9d7c1239c07",
+      "currentStateHash": "18a39d0ce6c254329bae750792ef3b64bbfd875b77f962dc9879604a29919003"
+    }
+  ],
+  "sequentialCounters": {
+    "invoiceYear": 2026,
+    "invoiceSeq": 3,
+    "receiptYear": 2026,
+    "receiptSeq": 2,
+    "expenseYear": 2026,
+    "expenseSeq": 3,
+    "refundYear": 2026,
+    "refundSeq": 1
+  },
+  "users": [
+    {
+      "id": "user-admin",
+      "username": "admin",
+      "passwordHash": "aa163422e098f8a463b38e5dedbe08d133d48fac0a8693582a48d3db59cd2a06",
+      "name": "Directeur Général",
+      "role": "ADMIN"
+    },
+    {
+      "id": "user-billing",
+      "username": "comptable",
+      "passwordHash": "e10a2a324ca79ed966fca692bda40f305f2b39a8cf694dc5f65a316f383a36a9",
+      "name": "Responsable Facturation",
+      "role": "BILLING_OFFICER"
+    },
+    {
+      "id": "user-auditor",
+      "username": "auditeur",
+      "passwordHash": "3a51d0889ba58dcd39f8ab4c856607f431f527f7fb40d73f1cf98281f3413747",
+      "name": "Commissaire aux Comptes",
+      "role": "AUDITOR"
+    }
+  ],
+  "serviceCatalog": [
+    {
+      "id": "srv-1",
+      "title": "Développement d'Application Web & API Sécurisée",
+      "category": "Ingénierie Logicielle",
+      "description": "Conception, développement full-stack, tests et mise en production de plateforme web d'entreprise.",
+      "unitPriceXOF": 1200000,
+      "unitPriceEUR": 1850,
+      "unitPriceUSD": 2000
+    },
+    {
+      "id": "srv-2",
+      "title": "Audit & Sécurisation des Systèmes d'Information",
+      "category": "Cybersécurité",
+      "description": "Audit d'architecture réseau, tests d'intrusion, durcissement serveur et conformité des données.",
+      "unitPriceXOF": 850000,
+      "unitPriceEUR": 1300,
+      "unitPriceUSD": 1400
+    },
+    {
+      "id": "srv-3",
+      "title": "Intégration Passerelle de Paiement MoMo & Carte Bancaire",
+      "category": "Fintech & Paiement",
+      "description": "Interfaçage API direct MTN Mobile Money Bénin, Moov Money et passerelle carte Visa/Mastercard.",
+      "unitPriceXOF": 450000,
+      "unitPriceEUR": 700,
+      "unitPriceUSD": 750
+    },
+    {
+      "id": "srv-4",
+      "title": "Déploiement Cloud & DevOps (Docker, CI/CD, SSL)",
+      "category": "Cloud & Infrastructure",
+      "description": "Configuration serveurs cloud dédiés, conteneurisation, certificats de sécurité et pipelines CI/CD.",
+      "unitPriceXOF": 600000,
+      "unitPriceEUR": 920,
+      "unitPriceUSD": 1000
+    },
+    {
+      "id": "srv-5",
+      "title": "Contrat Mensuel de Maintenance & Support Technique",
+      "category": "Support & Infogérance",
+      "description": "Supervision 24/7, sauvegardes quotidiennes chiffrées, mises à jour correctives et assistance prioritaire.",
+      "unitPriceXOF": 250000,
+      "unitPriceEUR": 380,
+      "unitPriceUSD": 420
+    },
+    {
+      "id": "srv-6",
+      "title": "Conseil & Accompagnement à la Transformation Numérique",
+      "category": "Conseil & Stratégie",
+      "description": "Élaboration de schéma directeur des systèmes d'information et accompagnement à la digitalisation.",
+      "unitPriceXOF": 500000,
+      "unitPriceEUR": 760,
+      "unitPriceUSD": 850
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "expenseNumber": "DEP-2026-0001",
+      "date": "2026-02-05",
+      "category": "HEBERGEMENT_CLOUD",
+      "description": "Souscription serveurs Cloud VPS dédiés & CDN sécurisé",
+      "supplierName": "OVHcloud SAS",
+      "amount": 175000,
+      "currency": "XOF",
+      "paymentMethod": "CREDIT_CARD",
+      "transactionReference": "CARTE-VISA-OVH-882190",
+      "recordedBy": "comptable",
+      "createdAt": "2026-02-05T10:00:00Z"
+    },
+    {
+      "id": "exp-2",
+      "expenseNumber": "DEP-2026-0002",
+      "date": "2026-02-08",
+      "category": "COMMUNICATION_INTERNET",
+      "description": "Ligne Fibre Optique Professionnelle haut débit Cotonou Ganhi",
+      "supplierName": "Bénin Télécoms Services (SBIN)",
+      "amount": 85000,
+      "currency": "XOF",
+      "paymentMethod": "MTN_MOMO",
+      "transactionReference": "MOMO-SBIN-BJ-900213",
+      "recordedBy": "comptable",
+      "createdAt": "2026-02-08T14:30:00Z"
+    },
+    {
+      "id": "exp-1794341782789",
+      "expenseNumber": "DEP-2026-0003",
+      "date": "2026-02-20",
+      "category": "MATERIEL_INFORMATIQUE",
+      "description": "Routeur VPN d entreprise et switch Gigabit",
+      "supplierName": "TechnoPlus Bénin",
+      "amount": 120000,
+      "currency": "XOF",
+      "paymentMethod": "BANK_TRANSFER",
+      "transactionReference": "VIR-ECOB-TECHNO-003",
+      "recordedBy": "admin",
+      "createdAt": "2026-11-10T20:16:22.789Z"
+    }
+  ]
+}
